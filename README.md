@@ -43,11 +43,5 @@ claude plugin marketplace remove <plugin-id>
 ## Contributing a plugin
 
 1. Fork this repo.
-2. Add an entry to `registry/index.json` pointing at your GitHub repo.
+2. Add an entry to `.claude-plugin/marketplace.json` pointing at your GitHub repo.
 3. Open a pull request.
-
-## Registry API
-
-The registry is plain JSON — consume it directly:
-
-- **Index:** `registry/index.json`

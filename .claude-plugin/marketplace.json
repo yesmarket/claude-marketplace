@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-marketplace",
+  "description": "Community marketplace for Claude Code plugins focused on spec-driven development workflows",
+  "owner": {
+    "name": "Ryan Bartsch",
+    "email": "rbartsch@yandex.com"
+  },
+  "plugins": [
+    {
+      "name": "speckit-extensions",
+      "description": "Configures MCP servers, plugins, and skills for an AI-assisted spec-driven development workflow. Includes context-gathering skills that query external systems like Jira, Confluence, Figma, and others to drive wrapped speckit commands — e.g. specify-from-jira pulls a Jira ticket via the Atlassian MCP server and pipes it into speckit specify to produce a spec.",
+      "author": {
+        "name": "Ryan Bartsch"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yesmarket/speckit-extensions.git"
+      },
+      "homepage": "https://github.com/yesmarket/speckit-extensions"
+    }
+  ]
+}
