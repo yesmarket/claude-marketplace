@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "marketplace": "yesmarket",
+  "updated_at": "2026-04-28",
+  "plugins": [
+    {
+      "id": "speckit-extensions",
+      "name": "speckit-extensions",
+      "publisher": "yesmarket",
+      "description": "Extensions for speckit — adds spec generation, validation, and templating capabilities to Claude Code.",
+      "version": "latest",
+      "category": "productivity",
+      "tags": ["spec", "testing", "generation", "templates"],
+      "source": {
+        "type": "github",
+        "repo": "yesmarket/speckit-extensions",
+        "url": "https://github.com/yesmarket/speckit-extensions"
+      },
+      "manifest": "plugins/speckit-extensions.json"
+    }
+  ]
+}
