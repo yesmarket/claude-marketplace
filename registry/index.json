@@ -1,22 +1,21 @@
 {
   "schema_version": "1.0",
-  "marketplace": "yesmarket",
+  "marketplace": "claude-marketplace",
   "updated_at": "2026-04-28",
   "plugins": [
     {
       "id": "speckit-extensions",
       "name": "speckit-extensions",
       "publisher": "yesmarket",
-      "description": "Extensions for speckit — adds spec generation, validation, and templating capabilities to Claude Code.",
+      "description": "Configures MCP servers, plugins, and skills for an AI-assisted spec-driven development workflow. Includes context-gathering skills that query external systems like Jira, Confluence, Figma, and others to drive wrapped speckit commands — e.g. specify-from-jira pulls a Jira ticket via the Atlassian MCP server and pipes it into speckit specify to produce a spec.",
       "version": "latest",
       "category": "productivity",
-      "tags": ["spec", "testing", "generation", "templates"],
+      "tags": ["spec", "speckit", "mcp", "skills"],
       "source": {
         "type": "github",
         "repo": "yesmarket/speckit-extensions",
         "url": "https://github.com/yesmarket/speckit-extensions"
-      },
-      "manifest": "plugins/speckit-extensions.json"
+      }
     }
   ]
 }
