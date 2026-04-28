@@ -17,7 +17,7 @@ Configures MCP servers, plugins, and skills for an AI-assisted spec-driven devel
 **Install:**
 
 ```bash
-claude plugin marketplace add speckit-extensions
+claude plugin install speckit-extensions@yesmarket/claude-marketplace
 ```
 
 **Source:** https://github.com/yesmarket/speckit-extensions
@@ -27,8 +27,11 @@ claude plugin marketplace add speckit-extensions
 ## Usage
 
 ```bash
-# Add a plugin
-claude plugin marketplace add <plugin-id>
+# Add this marketplace
+claude plugin marketplace add yesmarket/claude-marketplace
+
+# Install a plugin from this marketplace
+claude plugin install <plugin-id>@yesmarket/claude-marketplace
 
 # List available plugins
 claude plugin marketplace list
